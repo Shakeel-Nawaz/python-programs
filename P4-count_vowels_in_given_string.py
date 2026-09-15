@@ -14,7 +14,7 @@ for char in string:
 print(total_vowels)
 
 
-# using set method
+# using tuple method
 vowels = ['a','e','i','o','u','A','E','I','O','U']
 total_vowel = sum(1 for char in string if char in vowels)               # (1,1,1,1,1)
 print(total_vowel)
